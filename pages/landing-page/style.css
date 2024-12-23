@@ -4,7 +4,9 @@
     --primary-color: rgb(183, 20, 20);
     --secondery-color: rgb(202, 199, 199)
 }
-
+body{
+    background-color: #5e503f;
+}
 * {
     margin: 0;
     padding: 0;
@@ -119,7 +121,7 @@ span {
     margin: 20px 0;
     border-radius: 15px;
     overflow: hidden;
-    background-color: #20262d;
+    background-color: #eae0d5;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -165,10 +167,10 @@ span {
 
 @keyframes slider-vertical {
     0% {
-        transform: translateX(0);
+        transform: translateX(-300%);
     }
     100% {
-        transform: translateX(-300%);
+        transform: translateX(0%);
     }
 }
 
@@ -218,7 +220,7 @@ span {
 }
 footer {
     background-color: black;
-    height: 90vh;
+    height: 60vh;
     color: white;
     font-size: 20px;
     display: flex;
