@@ -67,14 +67,36 @@ margin-top: 10%;
 }
 
 .card:hover,.card-fancy:hover {
-    transform: scale(1.2)
+    transform: scale(1.2);    
 }
 
 .img-card {
     width: 100%;
     height: 65%;
+    transition: 0.5s;
 }
-
+.card1-fancy-second:hover .img-card{
+    content: url("/images/second-images/boucles-cambridge-noir.webp");
+}
+.card2-fancy-second:hover .img-card{
+    content: url("/images/second-images/mocassin-luton-noir.webp");
+}
+.card3-fancy-second:hover .img-card{
+    content: url("/images/second-images/derby-campoli-2-vernis-noir.webp");
+}
+.card1-men-basket:hover .img-card{
+    content: url("/images/second-images/_Air_Force_1.webp");
+}
+.card2-men-basket:hover .img-card{
+    content: url("/images/second-images/nike_lunnar.jpg");
+    object-fit: cover;
+    object-position: center;
+}
+.card3-men-basket:hover .img-card{
+    content: url("/images/second-images/nike-wild.jpg");
+    object-fit: cover;
+    object-position: center;
+}
 .text-card {
 
     text-align: center;
