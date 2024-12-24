@@ -1,14 +1,15 @@
 :root {
     --primary-color: rgb(183, 20, 20);
     --secondery-color: rgb(202, 199, 199);
-    --fancy-kids-color:#95d5b2;
+    --fancy-kids-color: #95d5b2;
 }
 
 body {
     background-color: #495057;
 }
-.body-fancy{
-    background-color:#2d6a4f 
+
+.body-fancy {
+    background-color: #2d6a4f
 }
 
 .contenair-img-top {
@@ -18,9 +19,10 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.contenair-img-top-fancy{
+
+.contenair-img-top-fancy {
     margin: 10%;
-    background-color:var(--fancy-kids-color);
+    background-color: var(--fancy-kids-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,15 +36,12 @@ body {
 
 .wrapper-card {
     margin: 20%;
-margin-top: 10%;
+    margin-top: 10%;
     display: grid;
-
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 75px;
     justify-content: center;
     align-content: center;
-
-
 }
 .link-card{
     color: inherit;
@@ -57,17 +56,19 @@ margin-top: 10%;
     border-radius: 10px;
     transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
-.card-fancy{
-    background-color:var(--fancy-kids-color);
+
+.card-fancy {
+    background-color: var(--fancy-kids-color);
     display: flex;
     flex-direction: column;
     border: 2px solid var(--secondery-color);
     overflow: hidden;
     border-radius: 10px;
-    transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55); 
+    transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
-.card:hover,.card-fancy:hover {
+.card:hover,
+.card-fancy:hover {
     transform: scale(1.2)
 }
 
@@ -76,12 +77,38 @@ margin-top: 10%;
     height: 65%;
 }
 
+.card1-kids-fancy-second:hover .img-card {
+    content: url("/images/second-images-kids/kids-1-second-fancy.webp");
+}
+
+.card2-kids-fancy-second:hover .img-card {
+    content: url("/images/second-images-kids/kids-2-fancy-second.webp");
+}
+
+.card3-kids-fancy-second:hover .img-card {
+    content: url("/images/second-images-kids/kids-3-fancy-second.webp");
+}
+
+.card1-kids-basket-second:hover .img-card {
+    content: url("/images/second-images-kids/kids-1-second.webp");
+}
+
+.card2-kids-basket-second:hover .img-card {
+    content: url("/images/second-images-kids/kids-2.basket-second.webp");
+}
+
+.card3-kids-basket-second:hover .img-card {
+    content: url("/images/second-images-kids/kids-3-second.webp");
+}
+
+
 .text-card {
 
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 5px;
 }
+
 footer {
     background-color: black;
     height: 60vh;
@@ -92,9 +119,11 @@ footer {
     align-items: center;
     padding: 20px;
 }
+
 footer h3 {
     padding: 10px 0;
 }
+
 .footer-container {
     display: flex;
     flex-direction: column;
@@ -102,9 +131,11 @@ footer h3 {
     width: 80%;
     max-width: 600px;
 }
+
 .footer-container label {
     margin: 10px 0 5px;
 }
+
 footer input,
 footer textarea {
     border-radius: 10px;
@@ -113,18 +144,21 @@ footer textarea {
     box-sizing: border-box;
     margin-bottom: 15px;
 }
+
 .link {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     width: 100%;
 }
+
 .link i {
     margin: 10px;
     padding: 10px;
     transform: scale(1);
     transition: transform 0.2s, background-color 0.2s, color 0.2s;
 }
+
 .link i:hover {
     transform: scale(1.2);
     background-color: white;
