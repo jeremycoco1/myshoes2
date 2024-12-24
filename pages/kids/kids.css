@@ -44,6 +44,9 @@ margin-top: 10%;
 
 
 }
+.link-card{
+    color: inherit;
+}
 
 .card {
     background-color: rgb(202, 199, 199);
