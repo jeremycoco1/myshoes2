@@ -43,6 +43,9 @@ body {
     justify-content: center;
     align-content: center;
 }
+.link-card{
+    color: inherit;
+}
 
 .card {
     background-color: rgb(202, 199, 199);
