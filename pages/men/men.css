@@ -1,26 +1,28 @@
 :root {
     --primary-color: rgb(183, 20, 20);
     --secondery-color: rgb(202, 199, 199);
-    --fancy:#ddb892;
+    --fancy: #ddb892;
 }
 
 body {
     background-color: #495057;
 }
-.body-fancy{
-    background-color:#2d6a4f 
+
+.body-fancy {
+    background-color: #2d6a4f
 }
 
 .contenair-img-top {
     margin: 10%;
-    background-color:var(--fancy);
+    background-color: var(--fancy);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.contenair-img-top-fancy{
+
+.contenair-img-top-fancy {
     margin: 10%;
-    background-color:var(--fancy);
+    background-color: var(--fancy);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,12 +33,14 @@ body {
     height: 100%;
     object-fit: cover;
 }
-.link-card{
-   color: inherit ;
+
+.link-card {
+    color: inherit;
 }
+
 .wrapper-card {
     margin: 20%;
-margin-top: 10%;
+    margin-top: 10%;
     display: grid;
 
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -56,18 +60,20 @@ margin-top: 10%;
     border-radius: 10px;
     transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
-.card-fancy{
-    background-color:var(--fancy-kids-color);
+
+.card-fancy {
+    background-color: var(--fancy-kids-color);
     display: flex;
     flex-direction: column;
     border: 2px solid var(--secondery-color);
     overflow: hidden;
     border-radius: 10px;
-    transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55); 
+    transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
-.card:hover,.card-fancy:hover {
-    transform: scale(1.2);    
+.card:hover,
+.card-fancy:hover {
+    transform: scale(1.2);
 }
 
 .img-card {
@@ -75,34 +81,38 @@ margin-top: 10%;
     height: 65%;
     transition: 0.5s;
 }
-.card1-fancy-second:hover .img-card{
+
+.card1-fancy-second:hover .img-card {
     content: url("/images/second-images/boucles-cambridge-noir.webp");
 }
-.card2-fancy-second:hover .img-card{
+
+.card2-fancy-second:hover .img-card {
     content: url("/images/second-images/mocassin-luton-noir.webp");
 }
-.card3-fancy-second:hover .img-card{
+
+.card3-fancy-second:hover .img-card {
     content: url("/images/second-images/derby-campoli-2-vernis-noir.webp");
 }
-.card1-men-basket:hover .img-card{
+
+.card1-men-basket:hover .img-card {
     content: url("/images/second-images/_Air_Force_1.webp");
 }
-.card2-men-basket:hover .img-card{
-    content: url("/images/second-images/nike_lunnar.jpg");
-    object-fit: cover;
-    object-position: center;
+
+.card2-men-basket:hover .img-card {
+    content: url("/images/second-images/men-basket2.webp");
 }
-.card3-men-basket:hover .img-card{
-    content: url("/images/second-images/nike-wild.jpg");
-    object-fit: cover;
-    object-position: center;
+
+.card3-men-basket:hover .img-card {
+    content: url("/images/second-images/men-basket3.avif");
 }
+
 .text-card {
 
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 5px;
 }
+
 footer {
     background-color: black;
     height: 60vh;
@@ -113,9 +123,11 @@ footer {
     align-items: center;
     padding: 20px;
 }
+
 footer h3 {
     padding: 10px 0;
 }
+
 .footer-container {
     display: flex;
     flex-direction: column;
@@ -123,9 +135,11 @@ footer h3 {
     width: 80%;
     max-width: 600px;
 }
+
 .footer-container label {
     margin: 10px 0 5px;
 }
+
 footer input,
 footer textarea {
     border-radius: 10px;
@@ -134,18 +148,21 @@ footer textarea {
     box-sizing: border-box;
     margin-bottom: 15px;
 }
+
 .link {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     width: 100%;
 }
+
 .link i {
     margin: 10px;
     padding: 10px;
     transform: scale(1);
     transition: transform 0.2s, background-color 0.2s, color 0.2s;
 }
+
 .link i:hover {
     transform: scale(1.2);
     background-color: white;
